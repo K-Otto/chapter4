@@ -30,7 +30,7 @@ public class SrpCorectionTest {
         animal.setName("Tiger");
         Assert.assertEquals(animal.getName(), "Tiger");
 
-        Assert.assertNotEquals(aReport.generateAnimalReport("Tiger", "Mammal", 11), "Name: Tiger Type: Mammal  Age: 10\n", "Reports are not the same");
+        Assert.assertEquals(aReport.generateAnimalReport("Tiger", "Mammal", 11), "Name: Tiger Type: Mammal Age: 11.0");
 
     }
 

@@ -22,6 +22,6 @@ public class Animal2Impl implements Animal2 {
         sn = surname;
     }
     public String generateAnimalReport(String n, String sn, double mark) {
-        return "Name: "+n+" Type: "+sn+" Age: "+mark+"\n";
+        return "Name: "+n+" Type: "+sn+" Age: "+mark;
     }
 }

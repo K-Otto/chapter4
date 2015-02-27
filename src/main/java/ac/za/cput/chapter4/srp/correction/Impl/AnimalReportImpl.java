@@ -7,6 +7,6 @@ import ac.za.cput.chapter4.srp.correction.AnimalReport;
  */
 public class AnimalReportImpl implements AnimalReport{
     public String generateAnimalReport(String n, String sn,  double age) {
-        return "Name: "+n+" Type: "+sn+" Age: "+age+"\n";
+        return "Name: "+n+" Type: "+sn+" Age: "+age;
     }
 }

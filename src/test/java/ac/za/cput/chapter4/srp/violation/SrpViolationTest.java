@@ -26,7 +26,7 @@ public class SrpViolationTest {
     public void testName() throws Exception {
         service.setName("Tiger");
         Assert.assertEquals("Names do not match", service.getName(), "Tiger");
-        Assert.assertNotEquals("Reports are not the same",service.generateAnimalReport("Tiger", "Mammal", 20), "Name: Tiger Type: Mammal Age: 75\n");
+        Assert.assertEquals(service.generateAnimalReport("Tiger", "Mammal", 20), "Name: Tiger Type: Mammal Age: 20.0");
 
     }
 
